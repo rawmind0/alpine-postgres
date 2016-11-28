@@ -27,9 +27,10 @@ Postgres is installed with the default configuration and some parameters can be 
 
 - POSTGRES_PASSWORD="postgres"		# Password for the postgres user
 - POSTGRES_USER="postgres"			# User to create at postgres
-- POSTGRES_DB="postgres"			# DB to create at postgres
-- POSTGRES_INITDB_ARGS="-E UTF8"	# Inirdb params to create DB
-
+- POSTGRES_DB="test"				# DB to create at postgres
+- POSTGRES_INITDB_ARGS="-E UTF8"	# Initdb params to create DB
+- POSTGRES_START_ARGS="-c listen_addresses='*'"	#DB start args
+- POSTGRES_SHUTDOWN_MODE="immediate"			# DB shutdown mode
 
 
 [alpine-monit]: https://github.com/rawmind0/alpine-monit/
