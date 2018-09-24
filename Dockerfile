@@ -1,4 +1,4 @@
-FROM rawmind/alpine-monit:0.5.19-2
+FROM rawmind/alpine-monit:5.25-3
 MAINTAINER Raul Sanchez <rawmind@gmail.com>
 
 ENV SERVICE_NAME=postgres                                   \

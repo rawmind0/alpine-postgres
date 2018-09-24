@@ -13,7 +13,7 @@ docker build -t rawmind/alpine-postgres:<version> .
 
 ## Versions
 
-- `9.5.5` [(Dockerfile)](https://github.com/rawmind0/alpine-postgres/blob/9.5.5/Dockerfile)
+- `9.5.5-0` [(Dockerfile)](https://github.com/rawmind0/alpine-postgres/blob/9.5.5-0/Dockerfile)
 
 ## Configuration
 
